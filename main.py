@@ -3,10 +3,10 @@ from discord.ext import commands, tasks
 from discord import app_commands
 import logging
 from dotenv import load_dotenv
-from keepalive import keep_alive
+
 import os
 
-keep_alive()
+
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
