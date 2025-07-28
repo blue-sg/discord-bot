@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 from discord import app_commands
 import logging
 from dotenv import load_dotenv
-from keep_alive import keep_alive
+from keepalive import keep_alive
 
 
 
