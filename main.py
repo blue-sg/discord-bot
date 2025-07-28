@@ -3,10 +3,14 @@ from discord.ext import commands, tasks
 from discord import app_commands
 import logging
 from dotenv import load_dotenv
+from keep_alive import keep_alive
+
+
 
 import os
 
 
+keep_alive()  # Keeps the web service running
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
